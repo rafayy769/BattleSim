@@ -37,11 +37,11 @@ const DelayedText &DelayedText::update(float x, float y)
 Game::Game(Player pl1, Player pl2) : mState(State::HOME), mPlayer1(pl1), mPlayer2(pl2), mWindow(sf::VideoMode(853, 640), "Battle", sf::Style::Close)
 {
     //Sets up the background
-    mBgTexture.loadFromFile("background.jpg");
+    mBgTexture.loadFromFile("res/background.jpg");
     mBackground.setTexture(mBgTexture);
     mBackground.setPosition(0, 0);
 
-    mSPTexture.loadFromFile("spbg.jpg");
+    mSPTexture.loadFromFile("res/spbg.jpg");
     mSPSprite.setTexture(mSPTexture);
     mSPSprite.setPosition(0.0f, 0.0f);
 
@@ -68,7 +68,7 @@ Game::Game(Player pl1, Player pl2) : mState(State::HOME), mPlayer1(pl1), mPlayer
     HomeScreentext.setString("HOME SCREEN!\nPRESS ENTER TO CONTINUE");
     HomeScreentext.setCharacterSize(30);
 
-    font.loadFromFile("ARCADECLASSIC.TTF");
+    font.loadFromFile("res/ARCADECLASSIC.TTF");
 
     infoBarText.setFont(font);
     infoBarText.setPosition(sf::Vector2f(InfoBar.getPosition().x + 5, InfoBar.getPosition().y + 5));

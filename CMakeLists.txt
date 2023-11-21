@@ -2,10 +2,8 @@
 # We use 3.1 for CMAKE_CXX_STANDARD
 cmake_minimum_required(VERSION 3.1)
 
-# Create a project. Find and replace BattleSim to give the project your own title.
-
+# I know could come up with a better name
 set(PRJ_NAME BattleSim)
-
 project(${PRJ_NAME})
 
 # Set the version of C++ being used. Here, C++11.

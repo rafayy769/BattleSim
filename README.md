@@ -10,6 +10,15 @@ Some essential aspects of the mechanics are described below.
 
 ---
 
+## Instructions for running:
+The project uses `Cmake` build system. Make sure you also have the required SFML libraries. Please put your platform's library in the lib folder (or anywhere), and update the path of SFML in the `CMakeLists.txt` file. Run the following command to build and start the project (assuming in the project's root directory)
+```
+$ cd build
+$ cmake ..
+$ make
+$ cd .. && build/BattleSim
+```
+
 ### Attack Mechanics:
 Assigning skill points, with a Base attribute which is random between 3 and 18, each player will have the Defending and Attacking skill different 
 depending on this. Initial HP = Defending skill of player. Attacking skill is calculated based on base attribute - 10 + skill points allocated to attacking

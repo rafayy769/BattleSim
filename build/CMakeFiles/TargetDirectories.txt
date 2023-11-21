@@ -1,5 +1,0 @@
-/home/rafay/Documents/CS100 Project1/BattleSim/build/CMakeFiles/edit_cache.dir
-/home/rafay/Documents/CS100 Project1/BattleSim/build/CMakeFiles/package_source.dir
-/home/rafay/Documents/CS100 Project1/BattleSim/build/CMakeFiles/rebuild_cache.dir
-/home/rafay/Documents/CS100 Project1/BattleSim/build/CMakeFiles/package.dir
-/home/rafay/Documents/CS100 Project1/BattleSim/build/CMakeFiles/BattleSim.dir
